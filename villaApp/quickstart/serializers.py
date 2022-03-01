@@ -12,3 +12,5 @@ class villaSerializer(serializers.Serializer):
     def create(self,validated_data):
         return villa.objects.create(**validated_data)
     
+
+        
